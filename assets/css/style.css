@@ -525,7 +525,7 @@ span.active {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev,
-  .next,
+  F .next,
   .text {
     font-size: 11px;
   }
@@ -755,13 +755,8 @@ button {
 --------------------------------------------------------------*/
 .clients {
   padding-top: 5px;
-}
-
-.clients .owl-item {
-  position: relative;
-  right: -340px;
-  padding: 0 0px;
-  size: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .clients .owl-item img {
@@ -775,6 +770,34 @@ button {
   -webkit-filter: none;
   filter: none;
   opacity: 1;
+}
+/*--------------------------------------------------------------
+# Clients Socmed
+--------------------------------------------------------------*/
+.clients {
+  padding-top: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clients .owl-item img {
+  width: 40%;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.clients .owl-item img:hover {
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1;
+}
+#socmed {
+  margin: 0 auto;
+  width: 20%;
+}
+#socmed img {
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1794,8 +1817,7 @@ h1.hbgText {
   text-align: center;
 }
 .socmed2 img {
-  padding: 0%;
-  width: 50px;
+  width: 50%;
 }
 /*--------------------------------------------------------------
 # Mobile Potrait
@@ -1865,17 +1887,6 @@ h1.hbgText {
     padding: 80px 20px;
     width: 400px;
     margin: auto;
-  }
-  #Socmed .container {
-    width: 600px;
-  }
-  #Socmed {
-    width: 200px;
-    position: relative;
-    right: -100px;
-  }
-  #Socmed img {
-    width: 40px;
   }
 
   .hpasirPuteh {
@@ -1960,16 +1971,12 @@ h1.hbgText {
     filter: none;
     opacity: 1;
   }
-  #Socmed .container {
-    width: 300px;
+  #socmed {
+    width: 60%;
   }
-  #Socmed {
-    width: 100%;
-    position: relative;
-    right: 10px;
-  }
-  #Socmed img {
-    width: 60px;
+
+  #socmed img {
+    width: 30%;
   }
   .location {
     margin: 10px;
