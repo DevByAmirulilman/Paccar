@@ -755,12 +755,11 @@ button {
 --------------------------------------------------------------*/
 .clients {
   padding-top: 5px;
-  width: 80%;
   margin: 0 auto;
 }
 
 .clients .owl-item img {
-  width: 40%;
+  width: 50%;
   opacity: 0.5;
   -webkit-filter: grayscale(100);
   filter: grayscale(100);
@@ -774,30 +773,10 @@ button {
 /*--------------------------------------------------------------
 # Clients Socmed
 --------------------------------------------------------------*/
-.clients {
-  padding-top: 5px;
-  width: 80%;
-  margin: 0 auto;
-}
 
-.clients .owl-item img {
-  width: 40%;
-  opacity: 0.5;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
-}
-
-.clients .owl-item img:hover {
-  -webkit-filter: none;
-  filter: none;
-  opacity: 1;
-}
 #socmed {
   margin: 0 auto;
-  width: 20%;
-}
-#socmed img {
-  width: 100%;
+  width: 35%;
 }
 
 /*--------------------------------------------------------------
@@ -1817,12 +1796,15 @@ h1.hbgText {
   text-align: center;
 }
 .socmed2 img {
-  width: 50%;
+  width: 5%;
 }
 /*--------------------------------------------------------------
 # Mobile Potrait
 --------------------------------------------------------------*/
 @media (max-width: 500px) {
+  .socmed2 img {
+    width: 20%;
+  }
   .hpasirPuteh {
     padding: 10px;
     position: relative;
