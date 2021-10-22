@@ -659,6 +659,10 @@ section {
   background-color: rgba(155, 155, 155, 0.185);
   transition: all ease 2s;
 }
+.about .container {
+  width: 60%;
+  margin: 0 auto;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
@@ -718,7 +722,7 @@ section {
 }
 .jadual-cuti {
   grid-area: jadual-cuti;
-  margin: auto;
+  margin: 0 auto;
   width: 80%;
 }
 
@@ -1108,7 +1112,7 @@ svg {
 }
 .bgHeader {
   padding: 0 0;
-  background-image: url(../img/greenbg.png);
+  background-color: green;
   background-position: center center;
   background-size: cover;
   text-align: center;
@@ -1418,7 +1422,7 @@ svg {
 
 .address1 {
   position: relative;
-  top: 70px;
+  top: 40px;
   width: 100%;
   left: -10px;
 }
@@ -1736,14 +1740,12 @@ h1.hbgText {
 }
 
 .aboutimg img {
-  width: 400px;
-  margin-bottom: 50px;
+  width: 80%;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
   image-rendering: crisp-edges;
 }
-.aboutimg {
-  position: relative;
-  top: 20px;
-}
+
 .posImg {
   position: relative;
   bottom: -75px;
@@ -1756,6 +1758,7 @@ h1.hbgText {
   height: 10%;
   padding-top: 10px;
 }
+
 .abouttext1 {
   font-size: 40px;
 }
@@ -1802,6 +1805,12 @@ h1.hbgText {
 # Mobile Potrait
 --------------------------------------------------------------*/
 @media (max-width: 500px) {
+  #jerteh {
+    height: 15%;
+  }
+  .grid-jadual {
+    margin-top: 2em;
+  }
   .socmed2 img {
     width: 20%;
   }
@@ -1835,8 +1844,9 @@ h1.hbgText {
     position: relative;
     left: -5px;
   }
-  #intro {
-    height: 1100px;
+
+  #intro .container {
+    height: 50em;
   }
   #intro h1.selamat {
     font-size: 60px;
@@ -1905,15 +1915,6 @@ h1.hbgText {
     bottom: -100px;
     right: -55px;
     width: 400px;
-  }
-  .aboutimg img {
-    width: 200px;
-    image-rendering: crisp-edges;
-  }
-  .aboutimg {
-    position: relative;
-    top: -40px;
-    right: -50px;
   }
 
   .centerServices {
@@ -2169,8 +2170,5 @@ h1.hbgText {
   .textPosition {
     position: relative;
     top: -40px;
-  }
-  .about {
-    height: 2300px;
   }
 }
