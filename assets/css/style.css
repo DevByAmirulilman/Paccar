@@ -1342,14 +1342,15 @@ svg {
 .box button:hover > img {
   transform: rotate(360deg);
 }
-.marginOrg {
-  width: 80%;
-  height: 80%;
-  margin: 50px 0px 0px 150px;
-  image-rendering: crisp-edges;
-}
+
 .bgOrg {
   background-color: rgba(155, 155, 155, 0.185);
+  display: flex;
+  justify-content: center;
+}
+.bgOrg img {
+  width: 80%;
+  margin: 0 auto;
 }
 .greenlabel {
   color: #ffffff;
@@ -1928,13 +1929,6 @@ h1.hbgText {
     filter: grayscale(100);
   }
 
-  .marginOrg {
-    width: 403px;
-    height: 403px;
-    position: relative;
-    left: -165px;
-    top: 32px;
-  }
   .hubungiContainer {
     margin-bottom: 100px;
   }
