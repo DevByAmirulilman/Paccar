@@ -1806,6 +1806,10 @@ h1.hbgText {
 # Mobile Potrait
 --------------------------------------------------------------*/
 @media (max-width: 500px) {
+  .footerlogo {
+    width: 10em;
+    margin-top: -20em;
+  }
   #jerteh {
     height: 15%;
   }
